@@ -1,44 +1,8 @@
 # Awesome-AgenticLLM-RL-Papers
+This is the Official repo for the survey paper: The Landscape of Agentic Reinforcement Learning for LLMs: A Survey
+[ArXiv – https://arxiv.org/abs/2509.02547](https://arxiv.org/abs/2509.02547)  
+[HuggingFace – https://huggingface.co/papers/2509.02547](https://huggingface.co/papers/2509.02547)
 
-## Sec2.7 Agentic RL Algorithms
-TO BE ADDED
-
----
-
-## Sec3.1 Agentic RL: Planning
-TO BE ADDED
-
----
-
-## Sec3.2 Agentic RL: Tool Using
-TO BE ADDED
-
----
-
-## Sec3.3 Agentic RL: Memory
-TO BE ADDED
-
----
-
-## Sec3.4 Agentic RL: Self-Improvement
-TO BE ADDED
-
----
-
-## Sec3.5 Agentic RL: Reasoning
-TO BE ADDED
-
----
-
-## Sec3.6 Agentic RL: Perception
-TO BE ADDED
-
----
-
-## Sec3.7 Agentic RL: Others
-TO BE ADDED
-
----
 
 ## Sec4.1 Task: Search & Research Agent
 

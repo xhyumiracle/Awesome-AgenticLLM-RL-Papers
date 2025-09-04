@@ -24,6 +24,7 @@ This is the Official repo for the survey paper: The Landscape of Agentic Reinfor
 | ASearcher | External | Qwen2.5-7B/14B, QwQ-32B | [Paper](https://arxiv.org/pdf/2508.07976) | [Code](https://github.com/inclusionAI/ASearcher) |
 | ZeroSearch | Internal | Qwen2.5-3B/7B-Base/Instruct | [Paper](https://arxiv.org/abs/2505.04588) | [Code](https://github.com/Alibaba-NLP/ZeroSearch) |
 | SSRL | Internal | Qwen2.5-1.5B/3B/7B/14B/32B/72B-Instruct, Llama-3.2-1B/8B-Instruct, Llama-3.1-8B/70B-Instruct, Qwen3-0.6B/1.7B/4B/8B/14B/32B | [Paper](https://arxiv.org/abs/2508.10874) | [Code](https://github.com/TsinghuaC3I/SSRL) |
+| AutoTIR | External | Qwen2.5-7B/32B-Instruct | [Paper](https://arxiv.org/pdf/2507.21836) | [Code](https://github.com/weiyifan1023/AutoTIR) |
 | **_Closed Source Methods_** |||||
 | OpenAI Deep Research | External | OpenAI Models | [Blog](https://openai.com/index/introducing-deep-research/) | [Website](https://chatgpt.com/) |
 | Perplexity’s DeepResearch | External | - | [Blog](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research) | [Website](https://www.perplexity.ai/) |
@@ -71,7 +72,7 @@ This is the Official repo for the survey paper: The Landscape of Agentic Reinfor
 | Qwen3-Coder | Outcome | - | [Paper](https://arxiv.org/pdf/2505.09388) | [Code](https://github.com/QwenLM/Qwen3) |
 | ML-Agent | Outcome | Qwen2.5-7B-Base/Instruct, DeepSeek-R1-Distill-Qwen-7B | [Paper](https://arxiv.org/pdf/2505.23723) | [Code](https://github.com/MASWorks/ML-Agent) |
 | Golubev et al. | Process | Qwen2.5-72B-Instruct | [Paper](https://arxiv.org/abs/2508.03501) | - |
-
+| AutoTIR | Process | Qwen2.5-7B/32B-Instruct | [Paper](https://arxiv.org/pdf/2507.21836) | [Code](https://github.com/weiyifan1023/AutoTIR) |
 ---
 
 ## Sec4.3 Task: Mathematical Agent

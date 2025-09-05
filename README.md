@@ -138,7 +138,6 @@ TO BE ADDED
 ---
 
 ## Sec4.4 Task: GUI Agent
-# A summary of methods for GUI agents, categorized by training paradigm and environment complexity
 
 | Method | Paradigm | Environment | Link | Resource |
 |--------|----------|-------------|------|----------|

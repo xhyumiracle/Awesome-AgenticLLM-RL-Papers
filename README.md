@@ -5,6 +5,18 @@ This is the Official repo for the survey paper: The Landscape of Agentic Reinfor
 
 [HuggingFace – https://huggingface.co/papers/2509.02547](https://huggingface.co/papers/2509.02547)
 
+## Citation
+```bibtex
+@misc{zhang2025landscapeagenticreinforcementlearning,
+      title={The Landscape of Agentic Reinforcement Learning for LLMs: A Survey}, 
+      author={Guibin Zhang and Hejia Geng and Xiaohang Yu and Zhenfei Yin and Zaibin Zhang and Zelin Tan and Heng Zhou and Zhongzhi Li and Xiangyuan Xue and Yijiang Li and Yifan Zhou and Yang Chen and Chen Zhang and Yutao Fan and Zihu Wang and Songtao Huang and Yue Liao and Hongru Wang and Mengyue Yang and Heng Ji and Michael Littman and Jun Wang and Shuicheng Yan and Philip Torr and Lei Bai},
+      year={2025},
+      eprint={2509.02547},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2509.02547}, 
+}
+```
 
 ## Sec4.1 Task: Search & Research Agent
 

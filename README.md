@@ -133,7 +133,36 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 ---
 
 ## Sec4.3 Task: Mathematical Agent
-TO BE ADDED
+
+| Method | Reward | Link | Resource |
+|--------|--------|------|----------|
+| **RL for Informal Mathematical Reasoning** ||||
+| ARTIST | Outcome | [Paper](https://arxiv.org/abs/2505.01441) | - |
+| ToRL | Outcome | [Paper](https://arxiv.org/abs/2503.05592) | [Code](https://github.com/GAIR-NLP/ToRL) [Model](https://huggingface.co/GAIR/ToRL-7B) |
+| ZeroTIR | Outcome | [Paper](https://arxiv.org/abs/2505.07773) | [Code](https://github.com/yyht/openrlhf_async_pipline) [Model](https://huggingface.co/htxu91/zero-tir-7b-550step) |
+| TTRL | Outcome | [Paper](https://arxiv.org/abs/2504.16084) | [Code](https://github.com/PRIME-RL/TTRL) |
+| RENT | Outcome | [Paper](https://arxiv.org/abs/2505.22660) | [Code](https://github.com/satrams/rent-rl) [Website](https://rent-rl.github.io/) |
+| Satori | Outcome | [Paper](https://openreview.net/forum?id=j4FXxMiDjL) | [Code](https://github.com/satori-reasoning/Satori) [Model](https://huggingface.co/Satori-reasoning) [Website](https://rent-rl.github.io/) |
+| 1-shot RLVR | Outcome | [Paper](https://arxiv.org/abs/2504.20571) | [Code](https://github.com/ypwang61/One-Shot-RLVR) [Model](https://huggingface.co/collections/ypwang61/one-shot-rlvr-6827f72c3359b2ffe75fc1a8) |
+| Prover-Verifier Games (legibility) | Outcome | [Paper](https://arxiv.org/abs/2407.13692) | - |
+| rStar2-Agent | Outcome | [Paper](https://arxiv.org/abs/2508.20722) | [Code](https://github.com/microsoft/rStar) |
+| START | Process | [Paper](https://arxiv.org/abs/2503.04625) | - |
+| LADDER | Process | [Paper](https://arxiv.org/abs/2503.00735) | - |
+| SWiRL | Process | [Paper](https://arxiv.org/abs/2504.04736) | - |
+| RLoT | Process | [Paper](https://arxiv.org/abs/2505.14140) | [Code](https://anonymous.4open.science/r/RL-LLM-Reasoning-1A30) |
+| **RL for Formal Mathematical Reasoning** ||||
+| DeepSeek-Prover-v1.5 | Outcome | [Paper](https://openreview.net/forum?id=I4YAIwrsXa) | [Code](https://github.com/deepseek-ai/DeepSeek-Prover-V1.5) [Model](https://huggingface.co/deepseek-ai) |
+| Leanabell-Prover | Outcome | [Paper](https://arxiv.org/abs/2504.06122) | [Code](https://github.com/Leanabell-LM/Leanabell-Prover) [Model](https://huggingface.co/collections/stoney0062/leanabell-prover-67fe4fae1dcf1d7221e309e9) |
+| Kimina-Prover (Preview) | Outcome | [Paper](https://arxiv.org/abs/2504.11354) | [Code](https://github.com/MoonshotAI/Kimina-Prover-Preview) [Model](https://huggingface.co/collections/AI-MO/kimina-prover-preview-67fb536b883d60e7ca25d7f9) |
+| Seed-Prover | Outcome | [Paper](https://arxiv.org/abs/2507.23726) | [Code](https://github.com/ByteDance-Seed/Seed-Prover) |
+| DeepSeek-Prover-v2 | Process | [Paper](doi.org/10.48550/arXiv.2405.04434) | [Code](https://github.com/deepseek-ai/DeepSeek-V2) [Model](https://huggingface.co/deepseek-ai) |
+| ProofNet++ | Process | [Paper](https://arxiv.org/abs/2505.24230) | - |
+| Leanabell-Prover-v2 | Process | [Paper](https://arxiv.org/abs/2507.08649) | [Code](https://github.com/Leanabell-LM/Leanabell-Prover-V2) |
+| **Hybrid** ||||
+| InternLM2.5-StepProver | Hybrid | [Paper](https://openreview.net/forum?id=qwCqeIg5iI) | [Code](https://github.com/InternLM/InternLM-Math) |
+| Lean-STaR | Hybrid | [Paper](https://openreview.net/forum?id=SOWZ59UyNc) | [Code](https://github.com/Lagooon/LeanSTaR) [Model](https://huggingface.co/ScalableMath/Lean-STaR-plus) [Website](https://leanstar.github.io/) |
+| STP | Hybrid | [Paper](https://openreview.net/forum?id=zWArMedNuW) | [Code](https://github.com/kfdong/STP) [Model](https://huggingface.co/kfdong/STP_model_Lean_0320) |
+
 
 ---
 

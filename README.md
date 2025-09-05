@@ -26,13 +26,13 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 
 | Method | Year | Objective Type | Clip | KL Penalty | Key Mechanism | Signal | Link | Resource |
 |--------|------|----------------|------|-------------|---------------|--------|------|----------|
-| **PPO family** |||||||||
+| **_PPO family_** |||||||||
 | PPO | 2017 | Policy gradient | Yes | No | Policy ratio clipping | Reward | [Paper](https://arxiv.org/abs/1707.06347) | - |
 | VAPO | 2025 | Policy gradient | Yes | Adaptive | Adaptive KL penalty + variance control | Reward + variance signal | [Paper](https://arxiv.org/abs/2504.05118) | - |
 | PF-PPO | 2024 | Policy gradient | Yes | Yes | Policy filtration | Noisy reward | [Paper](https://arxiv.org/abs/2409.06957) | [Code](https://github.com/DtYXs/verl/tree/pf-ppo) |
 | VinePPO | 2024 | Policy gradient | Yes | Yes | Unbiased value estimates | Reward | [Paper](https://arxiv.org/abs/2410.01679) | [Code](https://github.com/McGill-NLP/VinePPO) |
 | PSGPO | 2024 | Policy gradient | Yes | Yes | Process supervision | Process Reward | [Paper](https://openreview.net/forum?id=Cn5Z0MUPZT) | - |
-| **DPO family** |||||||||
+| **_DPO family_** |||||||||
 | DPO | 2024 | Preference optimization | No | Yes | Implicit reward related to the policy | Human preference | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Paper-Conference.pdf) | - |
 | β-DPO | 2024 | Preference optimization | No | Adaptive | Dynamic KL coefficient | Human preference | [Paper](https://openreview.net/forum?id=ZfBuhzE556) | [Code](https://github.com/junkangwu/beta-DPO) |
 | SimPO | 2024 | Preference optimization | No | Scaled | Use avg log-prob of a sequence as implicit reward | Human preference | [Paper](https://openreview.net/forum?id=3Tzcot1LKb) | [Code](https://github.com/princeton-nlp/SimPO) |
@@ -41,7 +41,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | ORPO | 2024 | Online regularized preference optimization | No | Yes | Online stabilization | Online feedback reward | [Paper](https://arxiv.org/abs/2403.07691) | [Code](https://github.com/xfactlab/orpo) [Model](https://huggingface.co/kaist-ai/mistral-orpo-alpha) |
 | Step-DPO | 2024 | Preference optimization | No | Yes | Step-wise supervision | Step-wise preference | [Paper](https://arxiv.org/abs/2406.18629) | [Code](https://github.com/dvlab-research/Step-DPO) [Model](https://huggingface.co/collections/xinlai/step-dpo-6682e12dfbbb2917c8161df7) |
 | LCPO | 2025 | Preference optimization | No | Yes | Length preference with limited data/training | Reward | [Paper](https://arxiv.org/abs/2508.10164) | - |
-| **GRPO family** |||||||||
+| **_GRPO family_** |||||||||
 | GRPO | 2025 | Policy gradient under group-based reward | Yes | Yes | Group-based relative reward to eliminate value estimates | Group-based reward | [Paper](https://arxiv.org/abs/2501.12948) | - |
 | DAPO | 2025 | Surrogate of GRPO's | Yes | Yes | Decoupled clip + dynamic sampling | Dynamic group-based reward | [Paper](https://arxiv.org/abs/2503.14476) | [Code](https://github.com/BytedTsinghua-SIA/DAPO) [Model](https://huggingface.co/BytedTsinghua-SIA/DAPO-Qwen-32B) [Website](https://dapo-sia.github.io/) |
 | GSPO | 2025 | Surrogate of GRPO's | Yes | Yes | Sequence-level clipping, rewarding, optimization | Smooth group-based reward | [Paper](https://arxiv.org/pdf/2507.18071) | - |
@@ -97,7 +97,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 ## Sec4.2 Task: Code Agent
 | Method | RL Reward Type | Base LLM | Link | Resource |
 |--------|----------------|----------|------|----------|
-| **RL for Code Generation** ||||| 
+| **_RL for Code Generation_** ||||| 
 | AceCoder | Outcome | Qwen2.5-Coder-7B-Base/Instruct, Qwen2.5-7B-Instruct | [Paper](https://arxiv.org/abs/2502.01718) | [Code](https://github.com/TIGER-AI-Lab/AceCoder) |
 | DeepCoder-14B | Outcome | Deepseek-R1-Distilled-Qwen-14B | [Blog](https://pretty-radio-b75.notion.site/DeepCoder-A-Fully-Open-Source-14B-Coder-at-O3-mini-Level-1cf81902c14680b3bee5eb349a512a51) | [Code](https://github.com/agentica-project/rllm) |
 | RLTF | Outcome | CodeGen-NL 2.7B, CodeT5 | [Paper](https://openreview.net/forum?id=hjYmsV6nXZ) | [Code](https://github.com/Zyq-scut/RLTF) |
@@ -110,7 +110,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | o1-Coder | Process | DeepSeek-1.3B-Instruct | [Paper](https://arxiv.org/abs/2412.00154) | [Code](https://github.com/ADaM-BJTU/O1-CODER) |
 | CodeFavor | Process | Mistral-NeMo-12B-Instruct, Gemma-2-9B-Instruct, Llama-3-8B-Instruct, Mistral-7B-Instruct-v0.3 | [Paper](https://arxiv.org/abs/2410.03837) | [Code](https://llm-code-preference.github.io/) |
 | Focused-DPO | Process | DeepSeek-Coder-6.7B-Base/Instruct, Magicoder-S-DS-6.7B, Qwen2.5-Coder-7B-Instruct | [Paper](https://aclanthology.org/2025.findings-acl.498/) | - |
-| **RL for Iterative Code Refinement** ||||| 
+| **_RL for Iterative Code Refinement_** ||||| 
 | RLEF | Outcome | Llama-3.0-8B-Instruct, Llama-3.1-8B/70B-Instruct | [Paper](https://openreview.net/forum?id=PzSG5nKe1q) | - |
 | μCode | Outcome | Llama-3.2-1B/8B-Instruct | [Paper](https://openreview.net/forum?id=aJeLhLcsh0) | [Code](https://github.com/portal-cornell/muCode) |
 | R1-Code-Interpreter | Outcome | Qwen2.5-7B/14B-Instruct-1M, Qwen2.5-3B-Instruct | [Paper](https://arxiv.org/abs/2505.21668) | [Code](https://github.com/yongchao98/R1-Code-Interpreter) |
@@ -120,7 +120,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | ReVeal | Process | DAPO-Qwen-32B, Qwen2.5-32B-Instruc(not-working) | [Paper](https://arxiv.org/abs/2506.11442) | - |
 | Posterior-GRPO | Process | Qwen2.5-Coder-3B/7B-Base, Qwen2.5-Math-7B | [Paper](https://arxiv.org/abs/2508.05170) | - |
 | Policy Filtration for RLHF | Process | DeepSeek-Coder-6.7B, Qwen1.5-7B | [Paper](https://openreview.net/forum?id=L8hYdTQVcs) | [Code](https://github.com/swtheing/PF-PPO-RLHF) |
-| **RL for Automated Software Engineering (SWE)** ||||| 
+| **_RL for Automated Software Engineering (SWE)_** ||||| 
 | DeepSWE | Outcome | Qwen3-32B | [Blog](https://pretty-radio-b75.notion.site/DeepSWE-Training-a-Fully-Open-sourced-State-of-the-Art-Coding-Agent-by-Scaling-RL-22281902c1468193aabbe9a8c59bbe33) | [Code](https://github.com/agentica-project/rllm) |
 | SWE-RL | Outcome | Llama-3.3-70B-Instruct | [Paper](https://arxiv.org/abs/2502.18449) | [Code](https://github.com/facebookresearch/swe-rl) |
 | Satori-SWE | Outcome | Qwen-2.5-Math-7B | [Paper](https://openreview.net/forum?id=j4FXxMiDjL) | [Code](https://github.com/satori-reasoning/Satori) |
@@ -136,7 +136,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 
 | Method | Reward | Link | Resource |
 |--------|--------|------|----------|
-| **RL for Informal Mathematical Reasoning** ||||
+| **_RL for Informal Mathematical Reasoning_** ||||
 | ARTIST | Outcome | [Paper](https://arxiv.org/abs/2505.01441) | - |
 | ToRL | Outcome | [Paper](https://arxiv.org/abs/2503.05592) | [Code](https://github.com/GAIR-NLP/ToRL) [Model](https://huggingface.co/GAIR/ToRL-7B) |
 | ZeroTIR | Outcome | [Paper](https://arxiv.org/abs/2505.07773) | [Code](https://github.com/yyht/openrlhf_async_pipline) [Model](https://huggingface.co/htxu91/zero-tir-7b-550step) |
@@ -150,7 +150,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | LADDER | Process | [Paper](https://arxiv.org/abs/2503.00735) | - |
 | SWiRL | Process | [Paper](https://arxiv.org/abs/2504.04736) | - |
 | RLoT | Process | [Paper](https://arxiv.org/abs/2505.14140) | [Code](https://anonymous.4open.science/r/RL-LLM-Reasoning-1A30) |
-| **RL for Formal Mathematical Reasoning** ||||
+| **_RL for Formal Mathematical Reasoning_** ||||
 | DeepSeek-Prover-v1.5 | Outcome | [Paper](https://openreview.net/forum?id=I4YAIwrsXa) | [Code](https://github.com/deepseek-ai/DeepSeek-Prover-V1.5) [Model](https://huggingface.co/deepseek-ai) |
 | Leanabell-Prover | Outcome | [Paper](https://arxiv.org/abs/2504.06122) | [Code](https://github.com/Leanabell-LM/Leanabell-Prover) [Model](https://huggingface.co/collections/stoney0062/leanabell-prover-67fe4fae1dcf1d7221e309e9) |
 | Kimina-Prover (Preview) | Outcome | [Paper](https://arxiv.org/abs/2504.11354) | [Code](https://github.com/MoonshotAI/Kimina-Prover-Preview) [Model](https://huggingface.co/collections/AI-MO/kimina-prover-preview-67fb536b883d60e7ca25d7f9) |
@@ -158,7 +158,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | DeepSeek-Prover-v2 | Process | [Paper](doi.org/10.48550/arXiv.2405.04434) | [Code](https://github.com/deepseek-ai/DeepSeek-V2) [Model](https://huggingface.co/deepseek-ai) |
 | ProofNet++ | Process | [Paper](https://arxiv.org/abs/2505.24230) | - |
 | Leanabell-Prover-v2 | Process | [Paper](https://arxiv.org/abs/2507.08649) | [Code](https://github.com/Leanabell-LM/Leanabell-Prover-V2) |
-| **Hybrid** ||||
+| **_Hybrid_** ||||
 | InternLM2.5-StepProver | Hybrid | [Paper](https://openreview.net/forum?id=qwCqeIg5iI) | [Code](https://github.com/InternLM/InternLM-Math) |
 | Lean-STaR | Hybrid | [Paper](https://openreview.net/forum?id=SOWZ59UyNc) | [Code](https://github.com/Lagooon/LeanSTaR) [Model](https://huggingface.co/ScalableMath/Lean-STaR-plus) [Website](https://leanstar.github.io/) |
 | STP | Hybrid | [Paper](https://openreview.net/forum?id=zWArMedNuW) | [Code](https://github.com/kfdong/STP) [Model](https://huggingface.co/kfdong/STP_model_Lean_0320) |
@@ -170,14 +170,14 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 
 | Method | Paradigm | Environment | Link | Resource |
 |--------|----------|-------------|------|----------|
-| **Non-RL GUI Agents** |||||
+| **_Non-RL GUI Agents_** |||||
 | MM-Navigator | Vanilla VLM | - | [Paper](https://arxiv.org/abs/2311.07562) | [Code](https://github.com/zzxslp/MM-Navigator) |
 | SeeAct | Vanilla VLM | - | [Paper](https://proceedings.mlr.press/v235/zheng24e.html) | [Code](https://github.com/OSU-NLP-Group/SeeAct) |
 | TRISHUL | Vanilla VLM | - | [Paper](https://arxiv.org/abs/2502.08226) | - |
 | InfiGUIAgent | SFT | - | [Paper](https://openreview.net/forum?id=p0h9XJ7fMH) | [Code](https://github.com/InfiXAI/InfiGUIAgent) [Model](https://huggingface.co/datasets/rootsautomation/ScreenSpot) [Website](https://b7277.github.io/InfiGUIAgent.github.io/) |
 | UI-AGILE | SFT | - | [Paper](https://arxiv.org/abs/2507.22025) | [Code](https://github.com/KDEGroup/UI-AGILE) [Model](https://huggingface.co/KDEGroup/UI-AGILE) |
 | TongUI | SFT | - | [Paper](https://arxiv.org/abs/2504.12679) | [Code](https://github.com/TongUI-agent/TongUI-agent) [Model](https://huggingface.co/collections/Bofeee5675/tongui-67f611e2d48b2b6e0d2ba3ee) [Website](https://tongui-agent.github.io/) |
-| **RL-based GUI Agents** |||||
+| **_RL-based GUI Agents_** |||||
 | GUI-R1 | RL | Static | [Paper](https://arxiv.org/pdf/2504.10458) | [Code](https://github.com/ritzz-ai/GUI-R1) [Model](https://huggingface.co/ritzzai/GUI-R1) |
 | UI-R1 | RL | Static | [Paper](https://arxiv.org/abs/2503.21620) | [Code](https://github.com/lll6gg/UI-R1) [Model](https://huggingface.co/LZXzju/Qwen2.5-VL-3B-UI-R1-E) |
 | InFiGUI-R1 | RL | Static | [Paper](https://arxiv.org/abs/2504.14239) | [Code](https://github.com/InfiXAI/InfiGUI-R1) [Model](https://huggingface.co/InfiX-ai/InfiGUI-R1-3B) |
@@ -205,13 +205,13 @@ TO BE ADDED
 ## Sec4.7 Task: RL in Multi-Agent Systems
 | Method | Paradigm | Link | Resource |
 |--------|----------|------|----------|
-| **RL-Free Multi-Agent Systems (not exhaustive)** ||||
+| **_RL-Free Multi-Agent Systems (not exhaustive)_** ||||
 | CAMEL | - | [Paper](https://dl.acm.org/doi/10.5555/3666122.3668386) | [Code](https://github.com/camel-ai/camel) [Model](https://huggingface.co/camel-ai) |
 | MetaGPT | No-train | [Paper](https://openreview.net/forum?id=VtmBAGCN7o) | [Code](https://github.com/FoundationAgents/MetaGPT) |
 | MAD | No-train | [Paper](https://aclanthology.org/2024.emnlp-main.992/) | [Code](https://github.com/Skytliang/Multi-Agents-Debate) |
 | MoA | No-train | [Paper](https://openreview.net/forum?id=h0ZfDIrj7T) | [Code](https://github.com/togethercomputer/moa) |
 | AFlow | No-train | [Paper](https://openreview.net/forum?id=z5uVAKwmjf) | [Code](https://github.com/FoundationAgents/AFlow) |
-| **RL-Based Multi-Agent Training** ||||
+| **_RL-Based Multi-Agent Training_** ||||
 | MaAS | - | [Paper](https://openreview.net/forum?id=imcyVlzpXh) | [Code](https://github.com/bingreeky/MaAS) |
 | G-Designer | - | [Paper](https://openreview.net/forum?id=LpE54NUnmO) | [Code](https://github.com/yanweiyue/GDesigner) |
 | MALT | Off-policy (DPO) | [Paper](https://openreview.net/forum?id=lIf7grAC7n) | - |
@@ -231,13 +231,13 @@ TO BE ADDED
 
 | Method | Dynamic | Train | RL Algorithm | Link | Resource |
 |--------|----------|-------|--------------|------|----------|
-| **RL-Free Multi-Agent Systems (not exhaustive)** |||||  
+| **_RL-Free Multi-Agent Systems (not exhaustive)_** |||||  
 | CAMEL | ✗ | ✗ | - | [Paper](https://dl.acm.org/doi/10.5555/3666122.3668386) | [Code](https://github.com/camel-ai/camel) [Model](https://huggingface.co/camel-ai) |
 | MetaGPT | ✗ | ✗ | - | [Paper](https://openreview.net/forum?id=VtmBAGCN7o) | [Code](https://github.com/FoundationAgents/MetaGPT) |
 | MAD | ✗ | ✗ | - | [Paper](https://aclanthology.org/2024.emnlp-main.992/) | [Code](https://github.com/Skytliang/Multi-Agents-Debate) |
 | MoA | ✗ | ✗ | - | [Paper](https://openreview.net/forum?id=h0ZfDIrj7T) | [Code](https://github.com/togethercomputer/moa) |
 | AFlow | ✗ | ✗ | - | [Paper](https://openreview.net/forum?id=z5uVAKwmjf) | [Code](https://github.com/FoundationAgents/AFlow) |
-| **RL-Based Multi-Agent Training** |||||  
+| **_RL-Based Multi-Agent Training_** |||||  
 | GPTSwarm | ✗ | ✗ | policy gradient | [Paper](https://openreview.net/forum?id=uTC9AFXIhg) | [Code](https://github.com/metauto-ai/gptswarm) [Website](https://gptswarm.org/) |
 | MaAS | ✓ | ✗ | policy gradient | [Paper](https://openreview.net/forum?id=imcyVlzpXh) | [Code](https://github.com/bingreeky/MaAS) |
 | G-Designer | ✓ | ✗ | policy gradient | [Paper](https://openreview.net/forum?id=LpE54NUnmO) | [Code](https://github.com/yanweiyue/GDesigner) |
@@ -304,7 +304,7 @@ The agent capabilities are denoted by:
 
 | Framework | Type | Key Features | Link | Resource |
 |-----------|------|--------------|------|----------|
-| **Agentic RL Frameworks** |||||
+| **_Agentic RL Frameworks_** |||||
 | Verifiers | Agent RL / LLM RL | Verifiable environment setup | - | [Code](https://github.com/willccbb/verifiers) |
 | SkyRL-v0/v0.1 | Agent RL | Long-horizon real-world training | [Blog (v0)](https://novasky-ai.notion.site/skyrl-v0) [Blog (v0.1)](https://novasky-ai.notion.site/skyrl-v01) | [Code](https://github.com/NovaSky-AI/SkyRL) |
 | AREAL | Agent RL / LLM RL | Asynchronous training | [Paper](https://openreview.net/forum?id=qJ0okaW9Z9) | [Code](https://github.com/inclusionAI/AReaL) |
@@ -312,13 +312,13 @@ The agent capabilities are denoted by:
 | EasyR1 | Agent RL / LLM RL | Multimodal support | - | [Code](https://github.com/hiyouga/EasyR1) |
 | AgentFly | Agent RL | Scalable asynchronous execution | [Paper](https://arxiv.org/abs/2507.14897) | [Code](https://github.com/Agent-One-Lab/AgentFly) |
 | Agent Lightning | Agent RL | Decoupled hierarchical RL | [Paper](https://arxiv.org/abs/2508.03680) | [Code](https://github.com/microsoft/agent-lightning) |
-| **RLHF and LLM Fine-tuning Frameworks** |||||
+| **_RLHF and LLM Fine-tuning Frameworks_** |||||
 | OpenRLHF | RLHF / LLM RL | High-performance scalable RLHF | [Paper](https://arxiv.org/abs/2405.11143) | [Code](https://github.com/OpenRLHF/OpenRLHF) |
 | TRL | RLHF / LLM RL | Hugging Face RLHF | - | [Code](https://github.com/huggingface/trl) |
 | trlX | RLHF / LLM RL | Distributed large-model RLHF | [Paper](https://aclanthology.org/2023.emnlp-main.530) | [Code](https://github.com/CarperAI/trlx) |
 | HybridFlow | RLHF / LLM RL | Streamlined experiment management | [Paper](http://dx.doi.org/10.1145/3689031.3696075) | [Code](https://github.com/volcengine/verl) |
 | SLiMe | RLHF / LLM RL | High-performance async RL | - | [Code](https://github.com/THUDM/slime) |
-| **General-purpose RL Frameworks** |||||
+| **_General-purpose RL Frameworks_** |||||
 | RLlib | General RL / Multi-agent RL | Production-grade scalable library | [Paper](https://proceedings.mlr.press/v80/liang18b.html) | [Code](https://github.com/ray-project/ray/tree/master/rllib) |
 | Acme | General RL | Modular distributed components | [Paper](https://arxiv.org/abs/2006.00979) | [Code](https://github.com/google-deepmind/acme) |
 | Tianshou | General RL | High-performance PyTorch platform | [Paper](https://jmlr.org/papers/v22/20-1364.html) | [Code](https://github.com/thu-ml/tianshou/) |

@@ -124,11 +124,11 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | DeepSWE | Outcome | Qwen3-32B | [Blog](https://pretty-radio-b75.notion.site/DeepSWE-Training-a-Fully-Open-sourced-State-of-the-Art-Coding-Agent-by-Scaling-RL-22281902c1468193aabbe9a8c59bbe33) | [Code](https://github.com/agentica-project/rllm) |
 | SWE-RL | Outcome | Llama-3.3-70B-Instruct | [Paper](https://arxiv.org/abs/2502.18449) | [Code](https://github.com/facebookresearch/swe-rl) |
 | Satori-SWE | Outcome | Qwen-2.5-Math-7B | [Paper](https://openreview.net/forum?id=j4FXxMiDjL) | [Code](https://github.com/satori-reasoning/Satori) |
-| SWEET-RL | Outcome | Llama-3.1-8B/70B-Instruct | [Paper](https://arxiv.org/abs/2503.15478) | [Code](https://github.com/facebookresearch/sweet_rl) |
 | RLCoder | Outcome | CodeLlama7B, StartCoder-7B, StarCoder2-7B, DeepSeekCoder-1B/7B | [Paper](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a165/215aWzRTwjK) | [Code](https://github.com/DeepSoftwareAnalytics/RLCoder) |
 | Qwen3-Coder | Outcome | - | [Paper](https://arxiv.org/pdf/2505.09388) | [Code](https://github.com/QwenLM/Qwen3) |
 | ML-Agent | Outcome | Qwen2.5-7B-Base/Instruct, DeepSeek-R1-Distill-Qwen-7B | [Paper](https://arxiv.org/pdf/2505.23723) | [Code](https://github.com/MASWorks/ML-Agent) |
 | Golubev et al. | Process | Qwen2.5-72B-Instruct | [Paper](https://arxiv.org/abs/2508.03501) | - |
+| SWEET-RL | Process | Llama-3.1-8B/70B-Instruct | [Paper](https://arxiv.org/abs/2503.15478) | [Code](https://github.com/facebookresearch/sweet_rl) |
 
 ---
 

@@ -203,28 +203,6 @@ TO BE ADDED
 ---
 
 ## Sec4.7 Task: RL in Multi-Agent Systems
-| Method | Paradigm | Link | Resource |
-|--------|----------|------|----------|
-| **_RL-Free Multi-Agent Systems (not exhaustive)_** ||||
-| CAMEL | - | [Paper](https://dl.acm.org/doi/10.5555/3666122.3668386) | [Code](https://github.com/camel-ai/camel) [Model](https://huggingface.co/camel-ai) |
-| MetaGPT | No-train | [Paper](https://openreview.net/forum?id=VtmBAGCN7o) | [Code](https://github.com/FoundationAgents/MetaGPT) |
-| MAD | No-train | [Paper](https://aclanthology.org/2024.emnlp-main.992/) | [Code](https://github.com/Skytliang/Multi-Agents-Debate) |
-| MoA | No-train | [Paper](https://openreview.net/forum?id=h0ZfDIrj7T) | [Code](https://github.com/togethercomputer/moa) |
-| AFlow | No-train | [Paper](https://openreview.net/forum?id=z5uVAKwmjf) | [Code](https://github.com/FoundationAgents/AFlow) |
-| **_RL-Based Multi-Agent Training_** ||||
-| MaAS | - | [Paper](https://openreview.net/forum?id=imcyVlzpXh) | [Code](https://github.com/bingreeky/MaAS) |
-| G-Designer | - | [Paper](https://openreview.net/forum?id=LpE54NUnmO) | [Code](https://github.com/yanweiyue/GDesigner) |
-| MALT | Off-policy (DPO) | [Paper](https://openreview.net/forum?id=lIf7grAC7n) | - |
-| MARFT | On-policy | [Paper](https://arxiv.org/abs/2504.16129) | [Code](https://github.com/jwliao-ai/MARFT) |
-| MAPoRL | On-policy | [Paper](https://aclanthology.org/2025.acl-long.1459/) | [Code](https://github.com/chanwoo-park-official/MAPoRL) |
-| MLPO | On-policy | [Paper](https://arxiv.org/abs/2507.08960) | - |
-| ReMA | On-policy | [Paper](https://arxiv.org/abs/2503.09501) | [Code](https://github.com/ziyuwan/ReMA-public) |
-| FlowReasoner | On-policy | [Paper](https://arxiv.org/abs/2504.15257) | [Code](https://github.com/sail-sg/FlowReasoner) |
-| LERO | On-policy | [Paper](https://arxiv.org/abs/2503.21807) | - |
-| CURE | On-policy | [Paper](https://arxiv.org/abs/2506.03136) | [Code](https://github.com/Gen-Verse/CURE) [Model](https://huggingface.co/collections/Gen-Verse/reasonflux-coder-6833109ed9300c62deb32c6b) |
-| MMedAgent-RL | On-policy | [Paper](https://arxiv.org/abs/2506.00555) | - |
-
-## Sec4.8. Task: Other Tasks
 
 “Dynamic” denotes whether the multi-agent system is task-dynamic, i.e., processes different task queries with different configurations (agent count, topologies, reasoning depth, prompts, etc).  
 “Train” denotes whether the method involves training the LLM backbone of agents.  
@@ -250,6 +228,9 @@ TO BE ADDED
 | LERO | ✓ | ✓ | MLPO | [Paper](https://arxiv.org/abs/2503.21807) | - |
 | CURE | ✗ | ✓ | rule-based RL | [Paper](https://arxiv.org/abs/2506.03136) | [Code](https://github.com/Gen-Verse/CURE) [Model](https://huggingface.co/collections/Gen-Verse/reasonflux-coder-6833109ed9300c62deb32c6b) |
 | MMedAgent-RL | ✗ | ✓ | GRPO | [Paper](https://arxiv.org/abs/2506.00555) | - |
+
+## Sec4.8. Task: Other Tasks
+TO BE ADDED
 
 ## Sec5.1 Environments
 

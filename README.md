@@ -82,7 +82,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | ASearcher | External | Qwen2.5-7B/14B, QwQ-32B | [Paper](https://arxiv.org/pdf/2508.07976) | [Code](https://github.com/inclusionAI/ASearcher) |
 | ZeroSearch | Internal | Qwen2.5-3B/7B-Base/Instruct | [Paper](https://arxiv.org/abs/2505.04588) | [Code](https://github.com/Alibaba-NLP/ZeroSearch) |
 | SSRL | Internal | Qwen2.5-1.5B/3B/7B/14B/32B/72B-Instruct, Llama-3.2-1B/8B-Instruct, Llama-3.1-8B/70B-Instruct, Qwen3-0.6B/1.7B/4B/8B/14B/32B | [Paper](https://arxiv.org/abs/2508.10874) | [Code](https://github.com/TsinghuaC3I/SSRL)
-| Search Self-play | External | Qwen-2.5-7B/14B/32B, LLaMA-3.1-8B, Qwen3-8B | [Paper](https://arxiv.org/abs/2510.18821) | [Code](https://github.com/Alibaba-Quark/SSP) |
+| Search Self-play | External | Qwen2.5-7B/14B/32B, LLaMA-3.1-8B, Qwen3-8B | [Paper](https://arxiv.org/abs/2510.18821) | [Code](https://github.com/Alibaba-Quark/SSP) |
 | **_Closed Source Methods_** |||||
 | OpenAI Deep Research | External | OpenAI Models | [Blog](https://openai.com/index/introducing-deep-research/) | [Website](https://chatgpt.com/) |
 | Perplexity’s DeepResearch | External | - | [Blog](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research) | [Website](https://www.perplexity.ai/) |

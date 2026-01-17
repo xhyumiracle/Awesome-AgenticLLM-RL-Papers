@@ -78,6 +78,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | WebDancer | External | Qwen2.5-7B/32B, QWQ-32B | [Paper](https://arxiv.org/abs/2505.22648) | [Code](https://github.com/Alibaba-NLP/WebAgent/tree/main/WebDancer) |
 | WebThinker | External | QwQ-32B, DeepSeek-R1-Distilled-Qwen-7B/14B/32B, Qwen2.5-32B-Instruct | [Paper](https://arxiv.org/abs/2504.21776) | [Code](https://github.com/sunnynexus/WebThinker) |
 | WebSailor | External | Qwen2.5-3B/7B/32B/72B | [Paper](https://arxiv.org/abs/2507.02592) | [Code](https://github.com/Alibaba-NLP/WebAgent/tree/main/WebSailor) |
+| AutoTIR | External | Qwen2.5-7B-Instruct | [Paper](https://arxiv.org/pdf/2507.21836) | [Code](https://github.com/weiyifan1023/AutoTIR) |
 | WebWatcher | External | Qwen2.5-VL-7B/32B | [Paper](https://arxiv.org/pdf/2508.05748) | [Code](https://github.com/Alibaba-NLP/WebAgent/tree/main/WebWatcher) |
 | ASearcher | External | Qwen2.5-7B/14B, QwQ-32B | [Paper](https://arxiv.org/pdf/2508.07976) | [Code](https://github.com/inclusionAI/ASearcher) |
 | ZeroSearch | Internal | Qwen2.5-3B/7B-Base/Instruct | [Paper](https://arxiv.org/abs/2505.04588) | [Code](https://github.com/Alibaba-NLP/ZeroSearch) |
@@ -150,6 +151,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | LADDER | Process | [Paper](https://arxiv.org/abs/2503.00735) | - |
 | SWiRL | Process | [Paper](https://arxiv.org/abs/2504.04736) | - |
 | RLoT | Process | [Paper](https://arxiv.org/abs/2505.14140) | [Code](https://anonymous.4open.science/r/RL-LLM-Reasoning-1A30) |
+| AutoTIR | Process | [Paper](https://arxiv.org/pdf/2507.21836) | [Code](https://github.com/weiyifan1023/AutoTIR) |
 | **_RL for Formal Mathematical Reasoning_** ||||
 | DeepSeek-Prover-v1.5 | Outcome | [Paper](https://openreview.net/forum?id=I4YAIwrsXa) | [Code](https://github.com/deepseek-ai/DeepSeek-Prover-V1.5) [Model](https://huggingface.co/deepseek-ai) |
 | Leanabell-Prover | Outcome | [Paper](https://arxiv.org/abs/2504.06122) | [Code](https://github.com/Leanabell-LM/Leanabell-Prover) [Model](https://huggingface.co/collections/stoney0062/leanabell-prover-67fe4fae1dcf1d7221e309e9) |

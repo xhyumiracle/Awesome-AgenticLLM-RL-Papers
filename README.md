@@ -228,6 +228,7 @@ TO BE ADDED
 | LERO | ✓ | ✓ | MLPO | [Paper](https://arxiv.org/abs/2503.21807) | - |
 | CURE | ✗ | ✓ | rule-based RL | [Paper](https://arxiv.org/abs/2506.03136) | [Code](https://github.com/Gen-Verse/CURE) [Model](https://huggingface.co/collections/Gen-Verse/reasonflux-coder-6833109ed9300c62deb32c6b) |
 | MMedAgent-RL | ✗ | ✓ | GRPO | [Paper](https://arxiv.org/abs/2506.00555) | - |
+| OWL |  ✓ | ✓ | DPO | [Paper](https://arxiv.org/abs/2505.23885) | [Code](https://github.com/camel-ai/owl) |
 
 ## Sec4.8. Task: Other Tasks
 TO BE ADDED

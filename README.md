@@ -104,6 +104,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | RLTF | Outcome | CodeGen-NL 2.7B, CodeT5 | [Paper](https://openreview.net/forum?id=hjYmsV6nXZ) | [Code](https://github.com/Zyq-scut/RLTF) |
 | CURE | Outcome | Qwen2.5-7B/14B-Instruct, Qwen3-4B | [Paper](https://arxiv.org/abs/2506.03136) | [Code](https://github.com/Gen-Verse/CURE) |
 | Absolute Zero | Outcome | Qwen2.5-7B/14B, Qwen2.5-Coder-3B/7B/14B, Llama-3.1-8B | [Paper](https://arxiv.org/abs/2505.03335) | [Code](https://github.com/LeapLabTHU/Absolute-Zero-Reasoner) |
+| MSRL | Outcome | Qwen2.5-VL-7B-Instruct | [Paper](https://arxiv.org/abs/2508.13587) | [Code](https://github.com/DocTron-hub/MSRL) |
 | StepCoder | Process | DeepSeek-Coder-Instruct-6.7B | [Paper](https://aclanthology.org/2024.acl-long.251/) | [Code](https://github.com/Ablustrund/APPS_Plus) |
 | Process Supervision-Guided PO | Process | - | [Paper](https://openreview.net/forum?id=Cn5Z0MUPZT) | - |
 | CodeBoost | Process | Qwen2.5-Coder-7B-Instruct, Llama-3.1-8B-Instruct, Seed-Coder-8B-Instruct, Yi-Coder-9B-Chat | [Paper](https://arxiv.org/abs/2508.05242) | [Code](https://github.com/sijieaaa/CodeBoost) |

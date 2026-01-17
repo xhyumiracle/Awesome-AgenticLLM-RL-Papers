@@ -129,9 +129,9 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | RLCoder | Outcome | CodeLlama7B, StartCoder-7B, StarCoder2-7B, DeepSeekCoder-1B/7B | [Paper](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a165/215aWzRTwjK) | [Code](https://github.com/DeepSoftwareAnalytics/RLCoder) |
 | Qwen3-Coder | Outcome | - | [Paper](https://arxiv.org/pdf/2505.09388) | [Code](https://github.com/QwenLM/Qwen3) |
 | ML-Agent | Outcome | Qwen2.5-7B-Base/Instruct, DeepSeek-R1-Distill-Qwen-7B | [Paper](https://arxiv.org/pdf/2505.23723) | [Code](https://github.com/MASWorks/ML-Agent) |
+| DeepAnalyze | Outcome | DeepSeek-R1-Distill-Qwen3-8B | [Paper](https://arxiv.org/abs/2510.16872) | [Code](https://github.com/ruc-datalab/DeepAnalyze) |
 | Golubev et al. | Process | Qwen2.5-72B-Instruct | [Paper](https://arxiv.org/abs/2508.03501) | - |
 | SWEET-RL | Process | Llama-3.1-8B/70B-Instruct | [Paper](https://arxiv.org/abs/2503.15478) | [Code](https://github.com/facebookresearch/sweet_rl) |
-| DeepAnalyze | Outcome | DeepSeek-R1-Distill-Qwen3-8B | [Paper](https://arxiv.org/abs/2510.16872) | [Code](https://github.com/ruc-datalab/DeepAnalyze) |
 
 ---
 

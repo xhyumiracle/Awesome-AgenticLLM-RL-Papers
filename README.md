@@ -75,6 +75,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | R1-Searcher++ | External | Qwen2.5-7B-Instruct | [Paper](https://arxiv.org/abs/2505.17005) | [Code](https://github.com/RUCAIBox/R1-Searcher-plus) |
 | ReSearch | External | Qwen2.5-7B/32B-Instruct | [Paper](https://arxiv.org/abs/2503.19470) | [Code](https://github.com/Agent-RL/ReCall/tree/re-search) |
 | StepSearch | External | Qwen2.5-3B/7B-Base/Instruct | [Paper](https://arxiv.org/abs/2505.15107) | [Code](https://github.com/Zillwang/StepSearch) |
+| Tool-Star | External | Qwen2.5-3B-Instruct, Llama3.2-3B-Instruct | [Paper](https://arxiv.org/abs/2505.16410) | [Code](https://github.com/dongguanting/Tool-Star) |
 | WebDancer | External | Qwen2.5-7B/32B, QWQ-32B | [Paper](https://arxiv.org/abs/2505.22648) | [Code](https://github.com/Alibaba-NLP/WebAgent/tree/main/WebDancer) |
 | WebThinker | External | QwQ-32B, DeepSeek-R1-Distilled-Qwen-7B/14B/32B, Qwen2.5-32B-Instruct | [Paper](https://arxiv.org/abs/2504.21776) | [Code](https://github.com/sunnynexus/WebThinker) |
 | WebSailor | External | Qwen2.5-3B/7B/32B/72B | [Paper](https://arxiv.org/abs/2507.02592) | [Code](https://github.com/Alibaba-NLP/WebAgent/tree/main/WebSailor) |
@@ -150,6 +151,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | 1-shot RLVR | Outcome | [Paper](https://arxiv.org/abs/2504.20571) | [Code](https://github.com/ypwang61/One-Shot-RLVR) [Model](https://huggingface.co/collections/ypwang61/one-shot-rlvr-6827f72c3359b2ffe75fc1a8) |
 | Prover-Verifier Games (legibility) | Outcome | [Paper](https://arxiv.org/abs/2407.13692) | - |
 | rStar2-Agent | Outcome | [Paper](https://arxiv.org/abs/2508.20722) | [Code](https://github.com/microsoft/rStar) |
+| Tool-Star | Outcome | [Paper](https://arxiv.org/abs/2505.16410) | [Code](https://github.com/dongguanting/Tool-Star) |
 | START | Process | [Paper](https://arxiv.org/abs/2503.04625) | - |
 | LADDER | Process | [Paper](https://arxiv.org/abs/2503.00735) | - |
 | SWiRL | Process | [Paper](https://arxiv.org/abs/2504.04736) | - |

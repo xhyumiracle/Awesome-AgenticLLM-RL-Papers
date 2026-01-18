@@ -143,7 +143,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 |--------|--------|------|----------|
 | **_RL for Informal Mathematical Reasoning_** ||||
 | ARTIST | Outcome | [Paper](https://arxiv.org/abs/2505.01441) | - |
-| ToRL | Outcome | [Paper](https://arxiv.org/abs/2503.05592) | [Code](https://github.com/GAIR-NLP/ToRL) [Model](https://huggingface.co/GAIR/ToRL-7B) |
+| ToRL | Outcome | [Paper](https://arxiv.org/abs/2503.23383) | [Code](https://github.com/GAIR-NLP/ToRL) [Model](https://huggingface.co/GAIR/ToRL-7B) |
 | ZeroTIR | Outcome | [Paper](https://arxiv.org/abs/2505.07773) | [Code](https://github.com/yyht/openrlhf_async_pipline) [Model](https://huggingface.co/htxu91/zero-tir-7b-550step) |
 | TTRL | Outcome | [Paper](https://arxiv.org/abs/2504.16084) | [Code](https://github.com/PRIME-RL/TTRL) |
 | RENT | Outcome | [Paper](https://arxiv.org/abs/2505.22660) | [Code](https://github.com/satrams/rent-rl) [Website](https://rent-rl.github.io/) |

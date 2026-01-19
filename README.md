@@ -44,6 +44,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | **_GRPO family_** |||||||||
 | GRPO | 2025 | Policy gradient under group-based reward | Yes | Yes | Group-based relative reward to eliminate value estimates | Group-based reward | [Paper](https://arxiv.org/abs/2501.12948) | - |
 | DAPO | 2025 | Surrogate of GRPO's | Yes | Yes | Decoupled clip + dynamic sampling | Dynamic group-based reward | [Paper](https://arxiv.org/abs/2503.14476) | [Code](https://github.com/BytedTsinghua-SIA/DAPO) [Model](https://huggingface.co/BytedTsinghua-SIA/DAPO-Qwen-32B) [Website](https://dapo-sia.github.io/) |
+| LUFFY | 2025 | Same as GRPO's | Yes | Yes | Mixed-policy GRPO with off-policy reasoning guidance | Group-based reward (on + off policy) | [Paper](https://arxiv.org/abs/2504.14945) | [Code](https://github.com/ElliottYan/LUFFY) [Model](https://huggingface.co/collections/Elliott/luffy-rl) |
 | GSPO | 2025 | Surrogate of GRPO's | Yes | Yes | Sequence-level clipping, rewarding, optimization | Smooth group-based reward | [Paper](https://arxiv.org/pdf/2507.18071) | - |
 | GMPO | 2025 | Surrogate of GRPO's | Yes | Yes | Geometric mean of token-level rewards | Margin-based reward | [Paper](https://arxiv.org/abs/2507.20673) | [Code](https://github.com/callsys/GMPO) |
 | ProRL | 2025 | Same as GRPO's | Yes | Yes | Reference policy reset | Group-based reward | [Paper](https://arxiv.org/pdf/2505.24864) | [Model](https://huggingface.co/nvidia/Nemotron-Research-Reasoning-Qwen-1.5B) |

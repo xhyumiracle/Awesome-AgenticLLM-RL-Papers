@@ -65,6 +65,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | CHORD | 2025 | Weighted GRPO + SFT | Yes | Yes | Auxiliary supervised loss | Group-based reward | [Paper](https://arxiv.org/pdf/2508.11408) | [Code](https://github.com/modelscope/Trinity-RFT/tree/main/examples/mix_chord) |
 | PAPO | 2025 | Surrogate of GRPO's | Yes | Yes | Implicit Perception Loss | Group-based reward | [Paper](https://arxiv.org/pdf/2507.06448) | [Code](https://github.com/MikeWangWZHL/PAPO) [Model](https://huggingface.co/collections/PAPOGalaxy/papo-qwen-686d92dd3d43b1ce698f851a) [Website](https://mikewangwzhl.github.io/PAPO/) |
 | Pass@k Training | 2025 | Same as GRPO's | Yes | Yes | Pass@k metric as reward | Group-based reward | [Paper](https://arxiv.org/abs/2508.10751) | [Code](https://github.com/RUCAIBox/Passk_Training) |
+| KTAE | 2025 | Same as GRPO's | Yes | Yes | Token-level advantage estimation | Group-based reward | [Paper](https://arxiv.org/pdf/2505.16826) | [Code](https://github.com/ZNLP/KTAE) |
 
 
 ## Sec4.1 Task: Search & Research Agent

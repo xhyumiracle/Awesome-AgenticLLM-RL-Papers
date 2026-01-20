@@ -156,6 +156,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | Prover-Verifier Games (legibility) | Outcome | [Paper](https://arxiv.org/abs/2407.13692) | - |
 | rStar2-Agent | Outcome | [Paper](https://arxiv.org/abs/2508.20722) | [Code](https://github.com/microsoft/rStar) |
 | Tool-Star | Outcome | [Paper](https://arxiv.org/abs/2505.16410) | [Code](https://github.com/dongguanting/Tool-Star) |
+| Parallel-R1 | Outcome | [Paper](https://arxiv.org/pdf/2509.07980) | [Code](https://github.com/zhengkid/Parallel-R1) |
 | START | Process | [Paper](https://arxiv.org/abs/2503.04625) | - |
 | LADDER | Process | [Paper](https://arxiv.org/abs/2503.00735) | - |
 | SWiRL | Process | [Paper](https://arxiv.org/abs/2504.04736) | - |

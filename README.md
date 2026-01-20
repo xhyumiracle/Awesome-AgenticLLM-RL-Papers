@@ -162,6 +162,7 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 | SWiRL | Process | [Paper](https://arxiv.org/abs/2504.04736) | - |
 | RLoT | Process | [Paper](https://arxiv.org/abs/2505.14140) | [Code](https://anonymous.4open.science/r/RL-LLM-Reasoning-1A30) |
 | AutoTIR | Process | [Paper](https://arxiv.org/pdf/2507.21836) | [Code](https://github.com/weiyifan1023/AutoTIR) |
+| SCRIBE | Process | [Paper](https://arxiv.org/pdf/2601.03555) | - |
 | **_RL for Formal Mathematical Reasoning_** ||||
 | DeepSeek-Prover-v1.5 | Outcome | [Paper](https://openreview.net/forum?id=I4YAIwrsXa) | [Code](https://github.com/deepseek-ai/DeepSeek-Prover-V1.5) [Model](https://huggingface.co/deepseek-ai) |
 | Leanabell-Prover | Outcome | [Paper](https://arxiv.org/abs/2504.06122) | [Code](https://github.com/Leanabell-LM/Leanabell-Prover) [Model](https://huggingface.co/collections/stoney0062/leanabell-prover-67fe4fae1dcf1d7221e309e9) |

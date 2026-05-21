@@ -265,6 +265,7 @@ The agent capabilities are denoted by:
 | WebShop | ②, ③ | Web | Text | [Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf) | [Code](https://github.com/princeton-nlp/WebShop) [Website](https://webshop-pnlp.github.io/) |
 | Mind2Web | ②, ③ | Web | Text, Visual | [Paper](https://arxiv.org/abs/2506.21506) | [Code](https://github.com/OSU-NLP-Group/Mind2Web-2) [Website](https://osu-nlp-group.github.io/Mind2Web-2/) |
 | WebArena | ②, ③ | Web | Text | [Paper](https://openreview.net/forum?id=oKn9c6ytLx) | [Code](https://github.com/web-arena-x/webarena) [Website](https://webarena.dev/) |
+| ClawBench | ②, ③ | Web | Text, Visual | [Paper](https://arxiv.org/abs/2604.08523) | [Code](https://github.com/reacher-z/ClawBench) [Website](https://claw-bench.com) [HF Dataset](https://huggingface.co/datasets/NAIL-Group/ClawBench) |
 | VisualwebArena | ①, ②, ③ | Web | Text, Visual | [Paper](https://arxiv.org/abs/2401.13649) | [Code](https://github.com/web-arena-x/visualwebarena) [Website](https://jykoh.com/vwa) |
 | AppWorld | ②, ③ | App | Text | [Paper](https://aclanthology.org/2024.acl-long.850/) | [Code](https://github.com/stonybrooknlp/appworld) [Website](https://appworld.dev/) |
 | AndroidWorld | ②, ③ | GUI, App | Text, Visual | [Paper](https://openreview.net/forum?id=il5yUQsrjC) | [Code](https://github.com/google-research/android_world) |

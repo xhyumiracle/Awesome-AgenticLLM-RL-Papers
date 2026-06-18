@@ -322,3 +322,4 @@ The agent capabilities are denoted by:
 | Stable Baselines3 | General RL | Reliable PyTorch algorithms | [Paper](https://jmlr.org/papers/v22/20-1364.html) | [Code](https://github.com/DLR-RM/stable-baselines3) |
 | PFRL | General RL | Benchmarked prototyping algorithms | [Paper](https://jmlr.org/papers/v22/20-376.html) | [Code](https://github.com/pfnet/pfrl) |
 
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor-frontend) - AI monitoring dashboard for AI agents and LLMs. [Demo](https://flik2002.github.io/openclaw-monitor-frontend)

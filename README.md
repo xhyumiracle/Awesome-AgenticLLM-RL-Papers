@@ -314,6 +314,7 @@ The agent capabilities are denoted by:
 | TRL | RLHF / LLM RL | Hugging Face RLHF | - | [Code](https://github.com/huggingface/trl) |
 | trlX | RLHF / LLM RL | Distributed large-model RLHF | [Paper](https://aclanthology.org/2023.emnlp-main.530) | [Code](https://github.com/CarperAI/trlx) |
 | HybridFlow | RLHF / LLM RL | Streamlined experiment management | [Paper](http://dx.doi.org/10.1145/3689031.3696075) | [Code](https://github.com/volcengine/verl) |
+| VeRL-Omni | Multimodal RL / LLM RL | Diffusion and omni-modality RL training (built on verl) | - | [Code](https://github.com/verl-project/verl-omni) [Docs](https://verl-omni.readthedocs.io/en/latest/index.html) |
 | SLiMe | RLHF / LLM RL | High-performance async RL | - | [Code](https://github.com/THUDM/slime) |
 | **_General-purpose RL Frameworks_** |||||
 | RLlib | General RL / Multi-agent RL | Production-grade scalable library | [Paper](https://proceedings.mlr.press/v80/liang18b.html) | [Code](https://github.com/ray-project/ray/tree/master/rllib) |

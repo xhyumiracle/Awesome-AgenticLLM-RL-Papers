@@ -309,6 +309,7 @@ The agent capabilities are denoted by:
 | EasyR1 | Agent RL / LLM RL | Multimodal support | - | [Code](https://github.com/hiyouga/EasyR1) |
 | AgentFly | Agent RL | Scalable asynchronous execution | [Paper](https://arxiv.org/abs/2507.14897) | [Code](https://github.com/Agent-One-Lab/AgentFly) |
 | Agent Lightning | Agent RL | Decoupled hierarchical RL | [Paper](https://arxiv.org/abs/2508.03680) | [Code](https://github.com/microsoft/agent-lightning) |
+| Libra | Agent RL / LLM RL | Resource-aware asynchronous post-training with disaggregated training and rollout | [Paper](https://arxiv.org/abs/2606.03077) | [Code](https://github.com/NetX-lab/Libra) |
 | **_RLHF and LLM Fine-tuning Frameworks_** |||||
 | OpenRLHF | RLHF / LLM RL | High-performance scalable RLHF | [Paper](https://arxiv.org/abs/2405.11143) | [Code](https://github.com/OpenRLHF/OpenRLHF) |
 | TRL | RLHF / LLM RL | Hugging Face RLHF | - | [Code](https://github.com/huggingface/trl) |

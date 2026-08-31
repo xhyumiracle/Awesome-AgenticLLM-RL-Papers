@@ -206,7 +206,11 @@ KL penalty corresponds to penalizing the KL divergence between the learned polic
 ---
 
 ## Sec4.5 Task: RL in Vision Agents
-TO BE ADDED
+
+| Method | RL Algorithm | Base VLM | Task | Link | Resource |
+|--------|--------------|----------|------|------|----------|
+| FusionAgent | GRPO with metric-based reward | Qwen2.5-VL-3B | Human recognition | [Paper](https://arxiv.org/abs/2603.26908) | [Code](https://github.com/jiezhu23/FusionAgent_CVPR26) [Website](https://fusionagent.github.io/) |
+| DepthAgent | GRPO with multi-reward objective | Qwen2.5-VL-3B | Universal depth estimation | [Paper](https://arxiv.org/abs/2605.23281) | - |
 
 ---
 
@@ -321,4 +325,3 @@ The agent capabilities are denoted by:
 | Tianshou | General RL | High-performance PyTorch platform | [Paper](https://jmlr.org/papers/v22/20-1364.html) | [Code](https://github.com/thu-ml/tianshou/) |
 | Stable Baselines3 | General RL | Reliable PyTorch algorithms | [Paper](https://jmlr.org/papers/v22/20-1364.html) | [Code](https://github.com/DLR-RM/stable-baselines3) |
 | PFRL | General RL | Benchmarked prototyping algorithms | [Paper](https://jmlr.org/papers/v22/20-376.html) | [Code](https://github.com/pfnet/pfrl) |
-
